@@ -1,6 +1,7 @@
 package edu.northwestern.cbits.purple_robot_manager.activities.settings;
 
 import android.annotation.TargetApi;
+import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
