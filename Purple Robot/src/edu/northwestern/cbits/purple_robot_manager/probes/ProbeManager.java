@@ -814,6 +814,26 @@ public class ProbeManager
         probeCategories.add(context.getString(R.string.probe_misc_category));
         probeCategories.add(context.getString(R.string.probe_studies_category));
 
+        ArrayList<String> nonExistentCategories = new ArrayList<>();
+        for (String key: probeCategories)
+        {
+            boolean containsProbe = false;
+            for (String probeKey : probeMap.keySet())
+            {
+                if (probeKey.equals(key))
+                {
+                    containsProbe = true;
+                    break;
+                }
+            }
+            if (containsProbe == false)
+            {
+                nonExistentCategories.add(key);
+            }
+        }
+
+        probeCategories.removeAll(nonExistentCategories);
+
         for (String key : probeMap.keySet())
         {
             if (probeCategories.contains(key) == false)

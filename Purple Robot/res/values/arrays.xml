@@ -10,7 +10,7 @@
 
    	<array name="probe_classes">
         <item>builtin.AccelerometerProbe</item>
-        <item>builtin.AddressBookDistancesProbe</item>
+<!--        <item>builtin.AddressBookDistancesProbe</item>-->
 <!--        <item>builtin.BatteryProbe</item>-->
         <!--<item>builtin.BluetoothDevicesProbe</item>-->
 <!--        <item>builtin.CallStateProbe</item>-->
@@ -38,7 +38,7 @@
         
 <!--        <item>features.DeviceInUseFeature</item>-->
         <!--<item>features.CallHistoryFeature</item>-->
-        <item>features.SunriseSunsetFeature</item>
+<!--        <item>features.SunriseSunsetFeature</item>-->
         <item>features.AccelerometerBasicStatisticsFeature</item>
         <item>features.GyroscopeBasicStatisticsFeature</item>
 <!--        <item>features.MagneticFieldBasicStatisticsFeature</item>-->
@@ -61,7 +61,7 @@
         <item>services.GooglePlacesProbe</item>
         <item>services.WeatherUndergroundProbe</item>-->
 
-        <item>builtin.RandomNoiseProbe</item>
+<!--        <item>builtin.RandomNoiseProbe</item>-->
 <!--        <item>builtin.NfcProbe</item>-->
    		<!-- <item>sample.SampleProbe</item> -->
 		<!-- <item>features.p20.P20FeaturesProbe</item> -->
@@ -79,14 +79,14 @@
 <!--        <item>builtin.ActivityDetectionProbe</item>-->
 <!--        <item>builtin.SignificantMotionProbe</item>-->
 
-        <item>builtin.RawLocationProbe</item>
+<!--        <item>builtin.RawLocationProbe</item>-->
 <!--        <item>builtin.FusedLocationProbe</item>-->
 <!--        <item>builtin.MediaRouterDeviceProbe</item>-->
-        <item>builtin.ShionProbe</item>
-        <item>builtin.SaintProbe</item>
+<!--        <item>builtin.ShionProbe</item>-->
+<!--        <item>builtin.SaintProbe</item>-->
 
 <!--        <item>devices.PebbleProbe</item>-->
-        <item>devices.AndroidWearProbe</item>
+<!--        <item>devices.AndroidWearProbe</item>-->
 <!--        <item>devices.wear.WearLightProbe</item>-->
 <!--        <item>devices.wear.WearBatteryProbe</item>-->
 <!--        <item>devices.wear.WearLivewellActivityCountProbe</item>-->
@@ -102,8 +102,8 @@
         <!-- <item>builtin.BluetoothReceiverProbe</item> -->
         <!-- <item>builtin.ZeroconfProbe</item> -->
 
-        <item>studies.LivewellActivityCountsProbe</item>
-        <item>studies.LivewellPebbleActivityCountsProbe</item>
+<!--        <item>studies.LivewellActivityCountsProbe</item>-->
+<!--        <item>studies.LivewellPebbleActivityCountsProbe</item>-->
 
 <!--        <item>builtin.WakeLockInformationProbe</item>-->
 <!--        <item>media.AudioCaptureProbe</item>-->
