@@ -11,41 +11,41 @@
    	<array name="probe_classes">
         <item>builtin.AccelerometerProbe</item>
         <item>builtin.AddressBookDistancesProbe</item>
-        <item>builtin.BatteryProbe</item>
+<!--        <item>builtin.BatteryProbe</item>-->
         <!--<item>builtin.BluetoothDevicesProbe</item>-->
-        <item>builtin.CallStateProbe</item>
+<!--        <item>builtin.CallStateProbe</item>-->
         <!--<item>builtin.CommunicationLogProbe</item>-->
         <!--<item>builtin.CommunicationEventProbe</item>-->
-        <item>builtin.DateCalendarProbe</item>
+<!--        <item>builtin.DateCalendarProbe</item>-->
         <item>builtin.GyroscopeProbe</item>
         <!--<item>builtin.HardwareInformationProbe</item>-->
-        <item>builtin.LightProbe</item>
+<!--        <item>builtin.LightProbe</item>-->
         <item>builtin.LocationProbe</item>
-        <item>builtin.MagneticFieldProbe</item>
-        <item>builtin.PressureProbe</item>
-        <item>builtin.ProximityProbe</item>
-        <item>builtin.NetworkProbe</item>
+<!--        <item>builtin.MagneticFieldProbe</item>-->
+<!--        <item>builtin.PressureProbe</item>-->
+<!--        <item>builtin.ProximityProbe</item>-->
+<!--        <item>builtin.NetworkProbe</item>-->
         <item>builtin.RobotHealthProbe</item>
-        <item>builtin.RunningSoftwareProbe</item>
-        <item>builtin.ScreenProbe</item>
-        <item>builtin.SoftwareInformationProbe</item>
-        <item>builtin.TelephonyProbe</item>
-        <item>builtin.TemperatureProbe</item>
-        <item>builtin.VisibleSatelliteProbe</item>
+<!--        <item>builtin.RunningSoftwareProbe</item>-->
+<!--        <item>builtin.ScreenProbe</item>-->
+<!--        <item>builtin.SoftwareInformationProbe</item>-->
+<!--        <item>builtin.TelephonyProbe</item>-->
+<!--        <item>builtin.TemperatureProbe</item>-->
+<!--        <item>builtin.VisibleSatelliteProbe</item>-->
         <!--<item>builtin.WifiAccessPointsProbe</item>-->
-        <item>builtin.AudioFeaturesProbe</item>
-        <item>builtin.ApplicationLaunchProbe</item>
+<!--        <item>builtin.AudioFeaturesProbe</item>-->
+<!--        <item>builtin.ApplicationLaunchProbe</item>-->
         
-        <item>features.DeviceInUseFeature</item>
+<!--        <item>features.DeviceInUseFeature</item>-->
         <!--<item>features.CallHistoryFeature</item>-->
         <item>features.SunriseSunsetFeature</item>
         <item>features.AccelerometerBasicStatisticsFeature</item>
         <item>features.GyroscopeBasicStatisticsFeature</item>
-        <item>features.MagneticFieldBasicStatisticsFeature</item>
-        <item>features.LightProbeBasicStatisticsFeature</item>
-        <item>features.PressureProbeBasicStatisticsFeature</item>
-        <item>features.ProximityProbeBasicStatisticsFeature</item>
-        <item>features.TemperatureProbeBasicStatisticsFeature</item>
+<!--        <item>features.MagneticFieldBasicStatisticsFeature</item>-->
+<!--        <item>features.LightProbeBasicStatisticsFeature</item>-->
+<!--        <item>features.PressureProbeBasicStatisticsFeature</item>-->
+<!--        <item>features.ProximityProbeBasicStatisticsFeature</item>-->
+<!--        <item>features.TemperatureProbeBasicStatisticsFeature</item>-->
 
         <!--
         <item>services.iHealthProbe</item>
@@ -62,51 +62,51 @@
         <item>services.WeatherUndergroundProbe</item>-->
 
         <item>builtin.RandomNoiseProbe</item>
-        <item>builtin.NfcProbe</item>
+<!--        <item>builtin.NfcProbe</item>-->
    		<!-- <item>sample.SampleProbe</item> -->
 		<!-- <item>features.p20.P20FeaturesProbe</item> -->
 		
-        <item>features.AccelerometerFrequencyFeature</item>
+<!--        <item>features.AccelerometerFrequencyFeature</item>-->
         
         <item>LabelProbe</item>
 
-        <item>builtin.GravityProbe</item>
-        <item>builtin.StepCounterProbe</item>
-        <item>builtin.LinearAccelerationProbe</item>
-        <item>builtin.RotationProbe</item>
-        <item>builtin.GeomagneticRotationProbe</item>
-        <item>builtin.AmbientHumidityProbe</item>
-        <item>builtin.ActivityDetectionProbe</item>
-        <item>builtin.SignificantMotionProbe</item>
+<!--        <item>builtin.GravityProbe</item>-->
+<!--        <item>builtin.StepCounterProbe</item>-->
+<!--        <item>builtin.LinearAccelerationProbe</item>-->
+<!--        <item>builtin.RotationProbe</item>-->
+<!--        <item>builtin.GeomagneticRotationProbe</item>-->
+<!--        <item>builtin.AmbientHumidityProbe</item>-->
+<!--        <item>builtin.ActivityDetectionProbe</item>-->
+<!--        <item>builtin.SignificantMotionProbe</item>-->
 
         <item>builtin.RawLocationProbe</item>
-        <item>builtin.FusedLocationProbe</item>
-        <item>builtin.MediaRouterDeviceProbe</item>
+<!--        <item>builtin.FusedLocationProbe</item>-->
+<!--        <item>builtin.MediaRouterDeviceProbe</item>-->
         <item>builtin.ShionProbe</item>
         <item>builtin.SaintProbe</item>
 
-        <item>devices.PebbleProbe</item>
+<!--        <item>devices.PebbleProbe</item>-->
         <item>devices.AndroidWearProbe</item>
-        <item>devices.wear.WearLightProbe</item>
-        <item>devices.wear.WearBatteryProbe</item>
-        <item>devices.wear.WearLivewellActivityCountProbe</item>
-        <item>devices.wear.WearHeartRateProbe</item>
-        <item>devices.wear.WearAccelerometerProbe</item>
-        <item>devices.wear.WearGyroscopeProbe</item>
-        <item>devices.wear.WearMagneticFieldProbe</item>
+<!--        <item>devices.wear.WearLightProbe</item>-->
+<!--        <item>devices.wear.WearBatteryProbe</item>-->
+<!--        <item>devices.wear.WearLivewellActivityCountProbe</item>-->
+<!--        <item>devices.wear.WearHeartRateProbe</item>-->
+<!--        <item>devices.wear.WearAccelerometerProbe</item>-->
+<!--        <item>devices.wear.WearGyroscopeProbe</item>-->
+<!--        <item>devices.wear.WearMagneticFieldProbe</item>-->
 
-        <item>sensors.AccelerometerSensorProbe</item>
-        <item>sensors.LightSensorProbe</item>
+<!--        <item>sensors.AccelerometerSensorProbe</item>-->
+<!--        <item>sensors.LightSensorProbe</item>-->
 
-        <item>builtin.TouchEventsProbe</item>
+<!--        <item>builtin.TouchEventsProbe</item>-->
         <!-- <item>builtin.BluetoothReceiverProbe</item> -->
         <!-- <item>builtin.ZeroconfProbe</item> -->
 
         <item>studies.LivewellActivityCountsProbe</item>
         <item>studies.LivewellPebbleActivityCountsProbe</item>
 
-        <item>builtin.WakeLockInformationProbe</item>
-        <item>media.AudioCaptureProbe</item>
+<!--        <item>builtin.WakeLockInformationProbe</item>-->
+<!--        <item>media.AudioCaptureProbe</item>-->
     </array>
 
 	<array name="output_plugin_classes">
