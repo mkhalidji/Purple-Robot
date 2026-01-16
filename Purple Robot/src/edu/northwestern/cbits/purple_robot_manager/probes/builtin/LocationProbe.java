@@ -319,6 +319,7 @@ public class LocationProbe extends Probe implements LocationListener
                             this.onLocationChanged(locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER));
                         }
                     }
+                    SanityManager.getInstance(context).clearPermissionAlert("android.permission.ACCESS_FINE_LOCATION");
                 }
                 else
                     SanityManager.getInstance(context).addPermissionAlert(this.name(context), "android.permission.ACCESS_FINE_LOCATION", context.getString(R.string.rationale_pr_location_probe), null);

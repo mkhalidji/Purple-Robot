@@ -327,7 +327,7 @@ public class SanityManager
             };
         }
 
-        String title = requester + ": " + PermissionsActivity.getTitle(this._context, permission);
+        String title = PermissionsActivity.getTitle(this._context, permission);
 
         this.addAlert(SanityCheck.ERROR, title, rationale, r);
     }
